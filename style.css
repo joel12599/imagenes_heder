@@ -1,0 +1,79 @@
+* {
+    color: white;
+    transition: 0.5s;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../ima/DALL·E\ 2024-12-12\ 08.16.16\ -\ A\ large\,\ modern\ stadium\ at\ night\,\ fully\ illuminated\ with\ bright\ floodlights\,\ showcasing\ a\ packed\ audience\ in\ the\ stands.\ The\ field\ is\ empty\,\ without\ p.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+  
+  
+main {
+  height: 55%;
+  display: flex;
+  padding: 15px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+
+    p {
+    font-size: 5px;
+    }
+    
+
+    
+    div p {
+      opacity: 0;
+    }
+    #div1 {
+      width: 40%;
+      
+  border: 2px solid transparent; 
+  box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.6); 
+}
+#div1:hover{
+  width: 80%;
+}
+
+
+    
+    
+    #div2 {
+      width: 30%;
+      border: 2px solid transparent; 
+      box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.6); 
+    }
+    #div2:hover{
+      width: 80%;
+    }
+    
+    
+    #div3 {
+      width: 30%;
+ 
+      border: 2px solid transparent; 
+      box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.6); 
+    }
+    #div3:hover{
+      width: 80%;
+    }
+    
+  
